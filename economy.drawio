@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1048" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="827" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,8 +16,11 @@
         <mxCell id="EDViek1StaecwCTFfGdp-39" edge="1" parent="1" source="EDViek1StaecwCTFfGdp-23" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=filledEdge;" target="EDViek1StaecwCTFfGdp-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ebc5NTYIPPtedG20bNcc-6" edge="1" parent="1" source="EDViek1StaecwCTFfGdp-23" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ebc5NTYIPPtedG20bNcc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EDViek1StaecwCTFfGdp-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="税金プール" vertex="1">
-          <mxGeometry height="60" width="120" x="320" y="95" as="geometry" />
+          <mxGeometry height="60" width="130" x="320" y="95" as="geometry" />
         </mxCell>
         <mxCell id="EDViek1StaecwCTFfGdp-24" edge="1" parent="1" source="EDViek1StaecwCTFfGdp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="EDViek1StaecwCTFfGdp-23">
           <mxGeometry relative="1" as="geometry" />
@@ -34,8 +37,20 @@
         <mxCell id="EDViek1StaecwCTFfGdp-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="30%" vertex="1">
           <mxGeometry height="30" width="60" x="490" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="EDViek1StaecwCTFfGdp-42" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="280" width="200" x="280" y="-10" as="geometry" />
+        <mxCell id="Ebc5NTYIPPtedG20bNcc-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Player" vertex="1">
+          <mxGeometry height="50" width="140" x="600" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ebc5NTYIPPtedG20bNcc-4" parent="Ebc5NTYIPPtedG20bNcc-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Private Wallet" vertex="1">
+          <mxGeometry height="30" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ebc5NTYIPPtedG20bNcc-8" edge="1" parent="1" source="Ebc5NTYIPPtedG20bNcc-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" target="Ebc5NTYIPPtedG20bNcc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ebc5NTYIPPtedG20bNcc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="資金分配システム" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Ebc5NTYIPPtedG20bNcc-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="70%" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
